@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+        <ImageView
+            android:id="@+id/login_bg"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_bg" />
+
+        <TextView
+            android:id="@+id/corporateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="神康云科技"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/corporateName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/corporateName"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="40dp"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/corporateName"
+            android:layout_marginRight="79dp"
+            android:layout_marginTop="40dp"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_login"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/tv_login"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/tv_login"
+            android:src="@mipmap/corner" />
+
+        <ImageView
+            android:id="@+id/img_register"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/tv_register"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/tv_register"
+            android:src="@mipmap/corner"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/login_interface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

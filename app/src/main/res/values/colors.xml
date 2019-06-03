@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 头部颜色2682d0 -->
+    <color name="head_bg">#1296db</color>
+    <color name="head_bgwhite">#ffffff</color>
+    <!-- dialog_背景 -->
+    <color name="beijing">#F3F4F6</color>
+    <!-- tab不选中 -->
+    <color name="tab_uncheck">#cdcdcd</color>
+    <!-- 浅灰 -->
+    <color name="main_tab_uncheck">#959595</color>
+    <!-- 灰白色 -->
+    <color name="huibai">#F7F7F7</color>
+    <!-- tab背景（没用） -->
+    <color name="tab_bg">#ebebeb</color>
+    <!-- 灰色 -->
+    <color name="grey">#d4d6d5</color>
+    <color name="shgrey">#ececec</color>
+    <color name="shgrey1">#88d4d6d5</color>
+    <!-- 头像背景(浅灰)-->
+    <color name="headimgbg">#EEEEEE</color>
+    <!-- 头像边(较深灰)-->
+    <color name="headstor">#CCCCCC</color>
+    <!-- 较灰 -->
+    <color name="jiaohui">#999999</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!--蓝色-->
+    <color name="keepBlue">#539ce6</color>
+    <!--灰色-->
+    <color name="keepGray">#999999</color>
+    <!-- 蓝色 -->
+    <color name="blue">#539ce6</color>
+    <color name="blue2">#504FF5</color>
+    <color name="blue1">#63AAE6</color>
+    <color name="blue_dark">#ff1976d1</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 点击返回颜色 -->
+    <color name="back_click">#0a205f</color>
+
+    <!-- 半透明橘黄色 -->
+    <color name="homegv_left">#acf56e0c</color>
+    <!-- 半透明绿色 -->
+    <color name="homegv_right">#ac0bf6b1</color>
+    <!-- 橘黄 -->
+    <color name="juhuang">#FF9966</color>
+    <!-- 红色 -->
+    <color name="redss">#FB4E44</color>
+    <!-- 翠绿 -->
+    <color name="green_one">#33CC00</color>
+    <!-- 天蓝 -->
+    <color name="tianblue">#2CB6DD</color>
+    <!-- 条码底色（浅蓝） -->
+    <color name="codebg">#3412b5e2</color>
+    <!-- 收卡模糊（透明灰） -->
+    <color name="colortmh">#90f4ebeb</color>
+
+    <!-- 扫码使用3个 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <!-- 优惠活动 上方浅灰 -->
+    <color name="youhui_top">#f4f4f4</color>
+    <!-- 优惠活动 下方深灰 -->
+    <color name="youhui_bottom">#d9d9d9</color>
+
+    <!-- 上拉刷新，下拉加载更多 -->
+    <color name="gray">#999999</color>
+    <!--  <color name="light_blue">#6593cb</color> -->
+    <color name="light_blue">#333333</color>
+    <color name="colorPrimary">#339EFE</color>
+    <color name="colorPrimaryDark">#339EFE</color>
+    <color name="colorAccent">#339EFE</color>
+    <color name="topbar_3">#339EFE</color>
+    <color name="line">#dddddd</color>
+    <color name="text_10">#333333</color>
+    <color name="text_11">#999999</color>
+    <color name="gray_bg">#f8f8f8</color>
+
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="hykcolor">#FF76A2</color>
+    <color name="czkcolor">#FF8C36</color>
+    <color name="jckcolor">#00BACB</color>
+    <color name="yhqcolor">#FF8C36</color>
+    <color name="split_color">#E8E8E8</color><!--原数值e4e4e4e-->
+    <color name="content_color">#787878</color>
+    <color name="hint_color">#999999</color>
+
+    <color name="bg_color">#F0F0F0</color>  <!--原#EDEDED-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+
+    <drawable name="recy_se">#F3F5F7</drawable>
+    <drawable name="recy_un">#FFFFFF</drawable>
+
+    <color name="list_divider_line">#e7e7e7</color>
+
+    <color name="backgroud">#EFEFEF</color>
+    <color name="hyk_color">#ffff8800</color>
+
+    <color name="statusbar_color">#dbdbdb</color>
+    <color name="hzxx">#4C4C4C</color>
+</resources>

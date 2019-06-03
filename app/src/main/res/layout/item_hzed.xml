@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/item"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/left_tv"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:text="患者信息"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_height="match_parent" />
+
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/center_ed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/right_iv"
+        android:background="@null"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/content_color"
+        android:textSize="13sp" />
+
+
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/right_iv"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/must"
+        />
+
+
+</RelativeLayout>

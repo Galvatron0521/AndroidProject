@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="@color/split_color"
+        android:visibility="gone"
+        android:id="@+id/top"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="70dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <!--备注名-->
+        <TextView
+            android:id="@+id/bw_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未命名"
+
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--手机号-->
+        <TextView
+            android:id="@+id/bw_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bw_title"
+            android:layout_marginTop="10dp"
+            android:text=""
+
+            android:textColor="@color/content_color"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/bw_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="10:30:11"
+            android:textColor="@color/content_color"
+            android:textSize="12sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

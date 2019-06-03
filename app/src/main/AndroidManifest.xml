@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shdjrmyy.qgw.CompanyProject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- sdcard读权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- 配置权限，用来记录应用配置信息 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 手机定位信息，用来为语义等功能提供定位，提供更精准的服务 -->
+    <!-- 定位信息是敏感信息，可通过Setting.setLocationEnable(false)关闭定位请求 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 如需使用人脸识别，还要添加：摄相头权限，拍照需要用到 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".BaseFolder.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Animation_RightInRightOutActivity">
+        <activity
+            android:name=".MainPage.WelcomeActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            //隐藏状态栏
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainPage.MainActivity" />
+        <activity android:name=".LoginPage.LoginActivity" />
+        <activity android:name=".HomePage.activity.SyllabusActivity" />
+        <activity android:name=".PatientPage.activity.PatientListActivity" />
+        <activity android:name=".HomePage.activity.SearchActivity" />
+        <activity android:name=".PatientPage.activity.PatientDetailsActivity" />
+        <activity
+            android:name=".PatientPage.activity.AddPatientActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".PatientPage.activity.ShowPhotoActivity" />
+        <activity android:name=".FollowUpPage.FollowActivity" />
+        <activity android:name=".DiseasePage.DiseasesListActivity" />
+        <activity
+            android:name=".FollowUpPage.AddPlanActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.activity.CRFManageActivity" />
+        <activity
+            android:name=".DiseasePage.AddDiseasesActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".PatientPage.activity.OtherInfoActivity" />
+        <activity android:name=".PatientPage.activity.HRecordDetailActivity" />
+        <activity
+            android:name=".PatientPage.activity.AddHRecordActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".PatientPage.activity.EditHRecordActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".DiseasePage.DiseasesDetailActivity" />
+        <activity
+            android:name=".DiseasePage.UpdateDiseasesActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".FollowUpPage.FollowDetailActivity" />
+        <activity
+            android:name=".FollowUpPage.EditFollowActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".PatientPage.activity.DetailsActivity" />
+        <activity android:name=".PatientPage.activity.HospitalRecordsActivity" />
+        <activity android:name=".PatientPage.activity.PatientFollowActivity" />
+        <activity
+            android:name=".PatientPage.activity.AddPatientFollowActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".PatientPage.activity.FlupDetailsActivity" />
+        <activity
+            android:name=".PatientPage.activity.UpdatePatientActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".PatientPage.activity.StopPatientFollowActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.activity.EventsDetailsActivity" />
+        <activity
+            android:name=".HomePage.activity.EditRecordActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".LoginPage.ChangeWordActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+    </application>
+
+</manifest>

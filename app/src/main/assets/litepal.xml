@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="UserInfo"></dbname>
+
+    <version value="1"></version>
+    <list>
+        <mapping class="com.shdjrmyy.qgw.CompanyProject.UtilsFolder.User" />
+        <mapping class="com.shdjrmyy.qgw.CompanyProject.PatientPage.bean.PatientBean" />
+        <mapping class="com.shdjrmyy.qgw.CompanyProject.FollowUpPage.bean.FollowData" />
+        <mapping class="com.shdjrmyy.qgw.CompanyProject.DiseasePage.bean.DiseaseBean" />
+        <mapping class="com.shdjrmyy.qgw.CompanyProject.LoginPage.FollowUpTypeBean" />
+    </list>
+</litepal>
